@@ -1,0 +1,513 @@
+<!DOCTYPE html>
+
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3" crossorigin="anonymous"></script>        
+        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css" integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous">        
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.css" integrity="sha512-yHknP1/AwR+yx26cB1y0cjvQUMvEa2PFzt1c9LlS4pRQ5NOTZFWbhBig+X9G9eYW/8m0/4OXNx8pxJ6z57x0dw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick-theme.min.css" integrity="sha512-17EgCFERpgZKcm0j0fEq1YCJuyAWdz9KUtv1EjVuaOz8pDnh/0nZxmU6BBXwaaxqoi9PQXnRWqlcDB027hgv9A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.5.7/jquery.fancybox.min.css" integrity="sha512-H9jrZiiopUdsLpg94A333EfumgUBpO9MdbxStdeITo+KEIMaNfHNvwyjjDJb+ERPaRS6DpyRlKbvPUasNItRyw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+        <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+        <link href="bizkimik.css" rel="stylesheet">
+        <title>Biz kimik</title>
+    </head>
+    <body>
+
+        <button type="button" class="btn btn-outline-success btn-floating btn-lg" id="btn-back-to-top">
+            <i class="fas fa-arrow-up"></i>
+        </button>
+
+        <!--
+        <div>
+            <div class="container">
+
+                <div class="row justify-content-md-center w3-hide-small" style="border-bottom-style: solid; border-color: black; border-width: 1px;">
+
+                    <ul class="nav nav pills" style="margin-bottom: -20px;margin-top: -10px;">
+                        <li class="nav-item m-3">
+                            <a href="#" class="nav-link"><img alt = "Contact" src = "images/phonelogo.png"></a>
+                        </li>
+                        <li class="nav-item m-3">
+                            <a href="#" class="nav-link"><p class="text-dark">+994 (70) 5555777</p></a>
+                        </li>
+                        <li class="nav-item ms-auto m-3">
+                            <a href="#" class="nav-link"><img alt = "Facebook" src = "images/fblogo.png"></a>
+                        </li>
+                        <li class="nav-item m-3">
+                            <a href="#" class="nav-link"><img alt = "LinkedIn" src = "images/bizkimik1/Group 411.png"></a>
+                        </li>
+                        <li class="nav-item m-3">
+                            <a href="#" class="nav-link"><img alt = "Twitter" src = "images/bizkimik1/Path 3988.png"></a>
+                        </li>
+                        <li class="nav-item m-3">
+                            <a href="#" class="nav-link"><img alt = "Instagram" src = "images/bizkimik1/Path 3987.png"></a>
+                        </li>
+                        <li class="nav-item m-3">
+                            <a href="#" class="nav-link"><img alt = "YouTube" src = "images/bizkimik1/Group 246.png"></a>
+                        </li>
+                    </ul>
+
+                </div>
+
+            </div>
+
+            <div class="container">
+
+                <div class="row justify-content-md-center" style="margin-bottom: -15px">
+
+                   <ul class="nav nav pills m-3">
+                        <li class="nav-item">
+                            <a href="index.html" class="nav-link"><img alt = "Meladora" src = "images/bizkimik1/Group 1.png"></a>
+                        </li>
+                        <li class="nav-item ms-auto">
+                            <a href="bizkimik.html" class="nav-link button1"><p class="text-light">Biz kimik?</p></a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="baglarimiz.html" class="nav-link button2"><p class="text-dark">Bağlarımız</p></a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="mehsullarimiz.html" class="nav-link button2"><p class="text-dark">Məhsullarımız</p></a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="xidmetlerimiz.html" class="nav-link button2"><p class="text-dark">Xidmətlərimiz</p></a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="sosialmesuliyyet.html" class="nav-link button2"><p class="text-dark">Sosial məsuliyyət</p></a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="elaqe.html" class="nav-link button2"><p class="text-dark">Əlaqə</p></a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="#" class="nav-link button2"><img alt = "Search" src = "images/bizkimik1/Path 13.png" style="width: 20.81px; height: 20.8px"></a>
+                        </li>
+                   </ul>
+
+ 
+                </div>
+
+            </div>
+        </div>
+        -->
+
+        <div class="container">
+          <div class="row justify-content-md-center w3-hide-medium w3-hide-small" style="border-bottom-style: solid; border-color: black; border-width: 1px;">
+            <ul class="nav nav pills" style="margin-bottom: -20px; margin-top: -10px; z-index: 1;">
+              <li class="nav-item m-3">
+                <a href="#" class="nav-link"><img alt = "Phone" src = "images/meladora/phonelogo.png"></a>
+              </li>
+              <li class="nav-item m-3">
+                <a href="#" class="nav-link"><p class="text-dark" style="font-family: 'Cormorant Garamond';">+994 (70) 5555777</p></a>
+              </li>
+              <li class="nav-item ms-auto m-3">
+                <a href="#" class="nav-link"><img alt = "Facebook" src = "images/meladora/fblogo.png"></a>
+              </li>
+              <li class="nav-item m-3">
+                <a href="#" class="nav-link"><img alt = "LinkedIn" src = "images/meladora/inlogo.png"></a>
+              </li>
+              <li class="nav-item m-3">
+                <a href="#" class="nav-link"><img alt = "Twitter" src = "images/meladora/twitterlogo.png"></a>
+              </li>
+              <li class="nav-item m-3">
+                <a href="#" class="nav-link"><img alt = "Instagram" src = "images/meladora/iglogo.png"></a>
+              </li>
+              <li class="nav-item m-3">
+                <a href="#" class="nav-link"><img alt = "YouTube" src = "images/meladora/youtubelogo.png"></a>
+              </li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="sticky-top" style="background-color: white; opacity: 0.9;">
+          <div class="container">
+
+              <div class="row justify-content-md-center">
+                
+                <nav class="navbar navbar-expand-lg">
+                  <div class="container-fluid">
+                    <a class="navbar-brand" href="index.html"><img alt = "Meladora" src = "images/bizkimik1/Group 1.png"></a>
+                    <button class="navbar-toggler bg-light" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                      <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                      <ul class="navbar-nav ms-auto m-3">
+                        <li class="nav-item button1 m-1">
+                          <a class="nav-link text-light" href="bizkimik.html">Biz kimik?</a>
+                        </li>
+                        <li class="nav-item button2 m-1">
+                          <a class="nav-link text-dark" href="baglarimiz.html">Bağlarımız</a>
+                        </li>
+                        <li class="nav-item button2 m-1">
+                          <a class="nav-link text-dark" href="mehsullarimiz.html">Məhsullarımız</a>
+                        </li>
+                        <li class="nav-item button2 m-1">
+                          <a class="nav-link text-dark" href="xidmetlerimiz.html">Xidmətlərimiz</a>
+                        </li>
+                        <li class="nav-item button2 m-1">
+                          <a class="nav-link text-dark" href="sosialmesuliyyet.html">Sosial məsuliyyət</a>
+                        </li>
+                        <li class="nav-item button2 m-1">
+                          <a class="nav-link text-dark" href="elaqe.html">Əlaqə</a>
+                        </li>
+                      </ul>
+
+                      <div class="box">
+                        <form name="search">
+                            <input type="text" class="input" name="txt" onmouseout="this.value = ''; this.blur();">
+                        </form>
+                        <i class="fas fa-search"></i> 
+                      </div>
+                    
+                    </div>
+                  </div>
+                </nav>
+
+              </div>
+
+          </div>
+        </div>
+
+        <div class="back_1">
+          <img src="images/bizkimik1/close-up-woman-harvesting-garden.png" alt="" style="width: 100%;">
+          <img src="images/bizkimik1/unnamed (2).png" alt="" class="back_25">
+        </div>
+
+        <div style="margin-top: 80px" class="pic5">
+            <h3 style="padding-bottom: 150px; padding-left: 200px; font-family: 'Cormorant Garamond';"><b>Biz kimik?</b></h3>
+        </div>
+
+        <div class="container">
+          <div class="card mb-3" style="border: none;">
+            <div class="row row-cols-1 row-cols-xl-2 g-0">
+              <div class="col-xl-6 pic1">
+                <div class="card-body text-center">
+                  <p class="card-text" style="font-family: 'Cormorant Garamond';">
+                    Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ducimus illum debitis, sint numquam, soluta eligendi, voluptatibus unde tempora qui in sequi. Laboriosam, ab unde excepturi id rem ipsam aliquam voluptas, facilis quia nihil ea deserunt temporibus natus. Tempora, nesciunt? Provident quod maxime mollitia deleniti iusto. Corporis ratione dolorum earum, ab quod, distinctio unde iure tempore eveniet iusto, suscipit libero sit officia nobis dolores repudiandae quas laboriosam omnis saepe! Quam, laborum ducimus voluptatum amet tenetur esse eaque quibusdam nesciunt, ipsam illum rem harum, nisi pariatur itaque ut fugiat blanditiis dolorum sequi quod architecto velit minima? Mollitia totam, alias omnis, officia facere dolorem optio aspernatur, unde corrupti assumenda sequi ut laudantium ullam repellat similique doloribus! Cupiditate voluptates veritatis distinctio id illo maxime explicabo ab iure. Temporibus ratione inventore molestias deserunt, ipsum impedit corporis dolorum vel atque ad veritatis obcaecati expedita modi, veniam repellat saepe aspernatur odit facilis nesciunt deleniti ut ipsa sint! Doloremque est et quibusdam vel repellat necessitatibus ad cumque tenetur aperiam molestias quia nobis eos, iusto a mollitia at deleniti eius. Minus aperiam commodi cupiditate magnam, quo sint nesciunt vel sapiente rerum excepturi! Esse tenetur officiis placeat sit aliquid nobis? Dicta nemo ut atque voluptates vitae ratione debitis modi dolor veniam nisi, neque doloremque omnis at! Ipsam officia blanditiis, aut dolores sapiente provident architecto! Molestias enim aperiam nobis, voluptates a perspiciatis nam ex excepturi veniam ut aliquam incidunt illo accusamus sapiente accusantium consequatur quos. Voluptatum iure assumenda, quisquam veritatis aliquam rerum architecto ad quam totam exercitationem ullam tenetur quae doloribus perferendis inventore, qui laudantium. Minima optio temporibus quia deleniti fugiat deserunt earum nulla. Commodi eveniet neque quia soluta adipisci enim tempora porro ratione quaerat eligendi omnis quos rem animi optio laudantium, vero voluptatum, ipsam, ipsa obcaecati sint tenetur sunt suscipit? Sunt dolor quae magnam omnis, saepe illum rem maiores commodi?
+                  </p>
+                  <img src="images/meladora/path37.png" alt="Left" class="w3-hide-medium w3-hide-small">             
+                  <img src="images/meladora/group6.png" alt="Leaf" class="w3-hide-medium w3-hide-small">
+                  <img src="images/meladora/path37.png" alt="Right" class="w3-hide-medium w3-hide-small">
+                  <br>
+                  <br>
+                  <img src="images/meladora/path24.png" alt="Orqanik" class="p-3 w3-hide-medium w3-hide-small">             
+                  <img src="images/meladora/path34.png" alt="Məmnuniyyət" class="p-3 w3-hide-medium w3-hide-small">
+                  <img src="images/meladora/path29.png" alt="Lorem" class="p-3 w3-hide-medium w3-hide-small">
+                  <img src="images/meladora/group4.png" alt="Yüksək keyfiyyət" class="p-3 w3-hide-medium w3-hide-small">  
+                  <br>
+                  <br>
+                  <ul style="list-style-type: none;">
+                    <li style="display: inline; font-family: 'Cormorant Garamond';" class="p-3 w3-hide-medium w3-hide-small">Orqanik</li>
+                    <li style="display: inline; font-family: 'Cormorant Garamond';" class="p-3 w3-hide-medium w3-hide-small">Məmnuniyyət</li>
+                    <li style="display: inline; font-family: 'Cormorant Garamond';" class="p-3 w3-hide-medium w3-hide-small">Lorem</li>
+                    <li style="display: inline; font-family: 'Cormorant Garamond';" class="p-3 w3-hide-medium w3-hide-small">Yüksək keyfiyyət</li>
+                  </ul>
+                </div>
+              </div>
+              <div class="col-xl-6">
+                <img src="images/bizkimik2/244-2446395_vegetable-png-clipart-min-basket-full-of-vegetables.png" alt="Plants Image" class="w-100">
+                <br>
+                <img src="images/bizkimik2/Group 416.png" alt="Plants Image" class="w-100">
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="container">
+          <div class="text-center">
+            <h2 class="mt-5 mb-3" style="font-family: 'Cormorant Garamond';"><b>Xidmətlərimiz</b></h5>
+            <img src="images/meladora/design.png" alt="Design Image" class="mb-3">
+          </div>
+          <div class="row slider">
+            <div class="col-md-12">
+              <div class="card garden_card" style="margin: 10px;">
+                <img src="images/bizkimik2/Group 436.png" class="card-img-top mt-3" alt="Image 1" style="margin-left: 17px; width: 123.38px; height: 83.77px;">
+                <div class="card-body">
+                  <h2 class="card-title service_name"><b>Damcı suvarma sistemləri</b></h2>
+                  <p class="card-text" style="font-family: 'Cormorant Garamond';">Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic aliquam cumque nobis! Sequi eligendi corrupti totam assumenda cumque, nulla inventore autem eveniet beatae omnis, earum voluptatem adipisci dolores aliquam repudiandae.</p>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-12">
+              <div class="card garden_card" style="margin: 10px;">
+                <img src="images/bizkimik2/Path 4414.png" class="card-img-top mt-3" alt="Image 2" style="margin-left: 17px; width: 83.28px; height: 83.27px;">
+                <div class="card-body">
+                  <h2 class="card-title service_name"><b>Layihələndirmə</b></h2>
+                  <p class="card-text" style="font-family: 'Cormorant Garamond';">Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic aliquam cumque nobis! Sequi eligendi corrupti totam assumenda cumque, nulla inventore autem eveniet beatae omnis, earum voluptatem adipisci dolores aliquam repudiandae.</p>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-12">
+              <div class="card garden_card" style="margin: 10px;">
+                <img src="images/bizkimik2/Path 4413.png" class="card-img-top mt-3" alt="Image 3" style="margin-left: 17px; width: 87.09px; height: 83.63px;">
+                <div class="card-body">
+                  <h2 class="card-title service_name"><b>Açar təslim bağların salınması</b></h2>
+                  <p class="card-text" style="font-family: 'Cormorant Garamond';">Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic aliquam cumque nobis! Sequi eligendi corrupti totam assumenda cumque, nulla inventore autem eveniet beatae omnis, earum voluptatem adipisci dolores aliquam repudiandae.</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="container-fluid" style="margin-top: 80px;">
+          <div class="text-center back4">
+            <h2 class="mb-3" style="font-family: 'Cormorant Garamond';"><b>Qalereya</b></h5>
+            <img src="images/meladora/design.png" alt="Design Image" style="margin-bottom: 60px;">
+          </div>
+        </div>
+
+
+        <div class="container">
+
+
+          <div class="row center_items">
+  
+  
+              <div class="col-lg-3 col-md-4 col-xs-6 thumb" style="margin: 31px;">
+                  <a href="images/bizkimik2/karina-vorozheeva-brQS8ihqRq4-unsplash.png" class="fancybox" rel="ligthbox">
+                      <img  src="images/bizkimik2/karina-vorozheeva-brQS8ihqRq4-unsplash.png" class="zoom img-fluid"  alt="">                       
+                  </a>
+                  <br>
+                  <a href="images/bizkimik2/markus-spiske-k2BDz7QXuJM-unsplash.png"  class="fancybox" rel="ligthbox">
+                      <img  src="images/bizkimik2/markus-spiske-k2BDz7QXuJM-unsplash.png" class="zoom img-fluid"  alt="">
+                  </a>
+              </div>
+
+              <div class="col-lg-3 col-md-4 col-xs-6 thumb" style="margin: 31px;">
+                  <a href="images/bizkimik2/adele-payman-2oYMwuFgnTg-unsplash.png"  class="fancybox" rel="ligthbox">
+                      <img  src="images/bizkimik2/adele-payman-2oYMwuFgnTg-unsplash.png" class="zoom img-fluid"  alt="">
+                  </a>
+                  <br>
+                  <a href="images/bizkimik2/close-up-woman-harvesting-garden.png"  class="fancybox" rel="ligthbox">
+                      <img  src="images/bizkimik2/close-up-woman-harvesting-garden.png" class="zoom img-fluid"  alt="">
+                  </a>
+              </div>
+              
+              <div class="col-lg-3 col-md-4 col-xs-6 thumb" style="margin: 31px;">
+                  <a href="images/bizkimik2/markus-winkler-HeqXGxnsnX4-unsplash.png" class="fancybox" rel="ligthbox">
+                      <img  src="images/bizkimik2/markus-winkler-HeqXGxnsnX4-unsplash.png" class="zoom img-fluid"  alt="">                       
+                  </a>
+                  <br>
+                  <a href="images/bizkimik2/markus-spiske-sFydXGrt5OA-unsplash.png"  class="fancybox" rel="ligthbox">
+                      <img  src="images/bizkimik2/markus-spiske-sFydXGrt5OA-unsplash.png" class="zoom img-fluid"  alt="">
+                  </a>
+              </div>
+              
+              <div class="col-lg-3 col-md-4 col-xs-6 thumb" style="margin: 31px;">
+                  <a href="images/bizkimik2/karina-vorozheeva-brQS8ihqRq4-unsplash.png" class="fancybox" rel="ligthbox">
+                      <img  src="images/bizkimik2/karina-vorozheeva-brQS8ihqRq4-unsplash.png" class="zoom img-fluid"  alt="">                       
+                  </a>
+                  <br>
+                  <a href="images/bizkimik2/markus-spiske-k2BDz7QXuJM-unsplash.png"  class="fancybox" rel="ligthbox">
+                      <img  src="images/bizkimik2/markus-spiske-k2BDz7QXuJM-unsplash.png" class="zoom img-fluid"  alt="">
+                  </a>
+              </div>
+
+              <div class="col-lg-3 col-md-4 col-xs-6 thumb" style="margin: 31px;">
+                  <a href="images/bizkimik2/adele-payman-2oYMwuFgnTg-unsplash.png"  class="fancybox" rel="ligthbox">
+                      <img  src="images/bizkimik2/adele-payman-2oYMwuFgnTg-unsplash.png" class="zoom img-fluid"  alt="">
+                  </a>
+                  <br>
+                  <a href="images/bizkimik2/close-up-woman-harvesting-garden.png"  class="fancybox" rel="ligthbox">
+                      <img  src="images/bizkimik2/close-up-woman-harvesting-garden.png" class="zoom img-fluid"  alt="">
+                  </a>
+              </div>
+              
+              <div class="col-lg-3 col-md-4 col-xs-6 thumb" style="margin: 31px;">
+                  <a href="images/bizkimik2/markus-winkler-HeqXGxnsnX4-unsplash.png" class="fancybox" rel="ligthbox">
+                      <img  src="images/bizkimik2/markus-winkler-HeqXGxnsnX4-unsplash.png" class="zoom img-fluid"  alt="">                       
+                  </a>
+                  <br>
+                  <a href="images/bizkimik2/markus-spiske-sFydXGrt5OA-unsplash.png"  class="fancybox" rel="ligthbox">
+                      <img  src="images/bizkimik2/markus-spiske-sFydXGrt5OA-unsplash.png" class="zoom img-fluid"  alt="">
+                  </a>
+              </div>
+              
+              <div class="col-lg-3 col-md-4 col-xs-6 thumb" style="margin: 31px;">
+                  <a href="images/bizkimik2/karina-vorozheeva-brQS8ihqRq4-unsplash.png" class="fancybox" rel="ligthbox">
+                      <img  src="images/bizkimik2/karina-vorozheeva-brQS8ihqRq4-unsplash.png" class="zoom img-fluid"  alt="">                       
+                  </a>
+                  <br>
+                  <a href="images/bizkimik2/markus-spiske-k2BDz7QXuJM-unsplash.png"  class="fancybox" rel="ligthbox">
+                      <img  src="images/bizkimik2/markus-spiske-k2BDz7QXuJM-unsplash.png" class="zoom img-fluid"  alt="">
+                  </a>
+              </div>
+
+              <div class="col-lg-3 col-md-4 col-xs-6 thumb" style="margin: 31px;">
+                  <a href="images/bizkimik2/adele-payman-2oYMwuFgnTg-unsplash.png"  class="fancybox" rel="ligthbox">
+                      <img  src="images/bizkimik2/adele-payman-2oYMwuFgnTg-unsplash.png" class="zoom img-fluid"  alt="">
+                  </a>
+                  <br>
+                  <a href="images/bizkimik2/close-up-woman-harvesting-garden.png"  class="fancybox" rel="ligthbox">
+                      <img  src="images/bizkimik2/close-up-woman-harvesting-garden.png" class="zoom img-fluid"  alt="">
+                  </a>
+              </div>
+              
+              <div class="col-lg-3 col-md-4 col-xs-6 thumb" style="margin: 31px;">
+                  <a href="images/bizkimik2/markus-winkler-HeqXGxnsnX4-unsplash.png" class="fancybox" rel="ligthbox">
+                      <img  src="images/bizkimik2/markus-winkler-HeqXGxnsnX4-unsplash.png" class="zoom img-fluid"  alt="">                       
+                  </a>
+                  <br>
+                  <a href="images/bizkimik2/markus-spiske-sFydXGrt5OA-unsplash.png"  class="fancybox" rel="ligthbox">
+                      <img  src="images/bizkimik2/markus-spiske-sFydXGrt5OA-unsplash.png" class="zoom img-fluid"  alt="">
+                  </a>
+              </div>
+              
+              
+             
+             
+          </div> 
+        
+  
+        </div>
+
+
+        <div class="back15">
+          <img src="images/bizkimik1/Screen Shot 2021-12-22 at 00.25.02.png" alt="Background Image" class="w-100">
+        </div>
+
+        <footer class="back2 bd-footer">
+          <div class="container" style="padding-top: 70px;">
+              <div class="row justify-content-md-center" style="border-bottom-style: solid; border-color: #C7C7C7; border-width: 1px">
+                <div class="col-lg-5 mb-4">
+                  <a href="index.html"><img src="images/bizkimik1/Group 418.png" alt="Meladora"></a>
+                </div>
+                <div class="col-6 col-lg-2 offset-lg-1 mb-3">
+                  <h5 style="color: #303030; font-family: 'Cormorant Garamond';"><b>Menyular</b></h5>
+                  <ul class="list-unstyled">
+                    <li class="mb-2"><a href="bizkimik.html" style="color: #303030;text-decoration: none; font-family: 'Cormorant Garamond';">Biz kimik?</a></li>
+                    <li class="mb-2"><a href="baglarimiz.html" style="color: #303030;text-decoration: none; font-family: 'Cormorant Garamond';">Bağlarımız</a></li>
+                    <li class="mb-2"><a href="mehsullarimiz.html" style="color: #303030;text-decoration: none; font-family: 'Cormorant Garamond';">Məhsullarımız</a></li>
+                    <li class="mb-2"><a href="xidmetlerimiz.html" style="color: #303030;text-decoration: none; font-family: 'Cormorant Garamond';">Xidmətlərimiz</a></li>
+                    <li class="mb-2"><a href="sosialmesuliyyet.html" style="color: #303030;text-decoration: none; font-family: 'Cormorant Garamond';">Sosial məsuliyyət</a></li>
+                    <li class="mb-2"><a href="elaqe.html" style="color: #303030;text-decoration: none; font-family: 'Cormorant Garamond';">Əlaqə</a></li>
+                  </ul>
+                </div>
+                <div class="col-6 col-lg-2 mb-3">
+                  <h5 style="color: #303030; font-family: 'Cormorant Garamond';"><b>Faydalı linklər</b></h5>
+                  <ul class="list-unstyled">
+                    <li class="mb-2"><a href="#" style="color: #303030;text-decoration: none; font-family: 'Cormorant Garamond';">Tez-tez soruşulanlar</a></li>
+                    <li class="mb-2"><a href="#" style="color: #303030;text-decoration: none; font-family: 'Cormorant Garamond';">Karyera</a></li>
+                    <li class="mb-2"><a href="#" style="color: #303030;text-decoration: none; font-family: 'Cormorant Garamond';">Xidmət şəbəkəsi</a></li>
+                  </ul>
+                </div>
+                <div class="col-6 col-lg-2 mb-3">
+                  <h5 style="color: #303030; font-family: 'Cormorant Garamond';"><b>FAQ</b></h5>
+                  <ul class="list-unstyled">
+                    <li class="mb-2"><a href="#" style="color: #303030;text-decoration: none; font-family: 'Cormorant Garamond';">Təhlükəsizlik</a></li>
+                    <li class="mb-2"><a href="#" style="color: #303030;text-decoration: none; font-family: 'Cormorant Garamond';">Şərtlər və qaydalar</a></li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+            <div class="container" style="padding-top: 10px;">
+                <div class="row">
+                  <div class="col">
+                    <h4 style="color: #303030; font-family: 'Cormorant Garamond';">Copyright</h4>
+                  </div>
+                </div>
+              </div>
+        </footer>
+
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+        <script src="jquery-3.6.0.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.js" integrity="sha512-XtmMtDEcNz2j7ekrtHvOVR4iwwaD6o/FUJe6+Zq+HgcCsk3kj4uSQQR8weQ2QVj1o0Pk6PwYLohm206ZzNfubg==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.5.7/jquery.fancybox.min.js" integrity="sha512-uURl+ZXMBrF4AwGaWmEetzrd+J5/8NRkWAvJx5sbPSSuOb0bZLqf+tOzniObO00BjHa/dD7gub9oCGMLPQHtQA==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+        <script type="text/javascript">
+            $('.slider').slick({
+                dots: true,
+                infinite: false,
+                speed: 300,
+                slidesToShow: 3,
+                slidesToScroll: 1,
+                responsive: [
+                  {
+                    breakpoint: 992,
+                    settings: {
+                      slidesToShow: 2,
+                      slidesToScroll: 1,
+                      infinite: true,
+                      dots: true
+                    }
+                  },
+                  {
+                    breakpoint: 576,
+                    settings: {
+                      slidesToShow: 1,
+                      slidesToScroll: 1
+                    }
+                  }
+                ]
+              });
+
+            $(document).ready(function(){
+            $(".fancybox").fancybox({
+                    openEffect: "none",
+                    closeEffect: "none"
+                });
+                
+                $(".zoom").hover(function(){
+                    
+                    $(this).addClass('transition');
+                }, function(){
+                    
+                    $(this).removeClass('transition');
+                });
+            });
+
+            $('.center_items').slick({
+                arrows: false,
+                centerMode: true,
+                centerPadding: '60px',
+                slidesToShow: 3,
+                responsive: [
+                    {
+                    breakpoint: 992,
+                    settings: {
+                        arrows: false,
+                        centerMode: true,
+                        centerPadding: '31px',
+                        slidesToShow: 3
+                    }
+                    },
+                    {
+                    breakpoint: 768,
+                    settings: {
+                        arrows: false,
+                        centerMode: true,
+                        centerPadding: '31px',
+                        slidesToShow: 1
+                    }
+                    }
+                ]
+                });
+
+            let mybutton = document.getElementById("btn-back-to-top");
+
+            window.onscroll = function () {
+            scrollFunction();
+            };
+
+            function scrollFunction() {
+            if (
+            document.body.scrollTop > 20 ||
+            document.documentElement.scrollTop > 20
+            ) {
+            mybutton.style.display = "block";
+            } else {
+            mybutton.style.display = "none";
+            }
+            }
+
+            mybutton.addEventListener("click", backToTop);
+
+            function backToTop() {
+            document.body.scrollTop = 0;
+            document.documentElement.scrollTop = 0;
+            }
+        </script>
+
+    </body>
+</html>
+

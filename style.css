@@ -1,0 +1,332 @@
+* {
+    box-sizing: border-box;
+}
+
+#btn-back-to-top {
+    position: fixed;
+    bottom: 40px;
+    right: 40px;
+    display: none;
+    z-index: 1;
+}
+
+button:active,
+button:focus
+{
+    outline:0px !important;
+    -webkit-appearance:none;
+    box-shadow: none !important;
+}
+
+.section {
+    transform: translate(0%, -45%);
+}
+
+@media screen and (max-width: 576px) {
+    .section {
+        transform: translate(0%, -30%);
+    }
+}
+
+.section_margin {
+    margin-top: 800px;
+}
+
+
+@media screen and (max-width: 1200px) {
+    .section_margin {
+        margin-top: 600px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .section_margin {
+        margin-top: 450px;
+    }
+}
+
+@media screen and (max-width: 468px) {
+    .section_margin {
+        margin-top: 350px;
+    }
+}
+
+
+.bg-img {
+    background-image: url("images/meladora/backgroundcolor.png"), url("images/meladora/Rectangle\ 28.png");
+    min-height: 630px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    background-blend-mode: multiply;
+
+}
+
+.bg-img-1 {
+    position: absolute;
+    width: 100%;
+    top: 0;
+    left: 0;
+}
+
+.bg-img-2 {
+    background-image: url("images/footer/ezgif.com-gif-maker\ \(1\).png");
+    min-height: 675px;
+    background-color: #cccccc;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+
+.slick-center { 
+    transform: scale(1.05) 
+}
+
+.box{
+    position: relative;
+}
+
+.input {
+    width: 40px;
+    height: 40px;
+    background: none;
+    border: 2px solid transparent;
+    border-radius: 50px;
+    box-sizing: border-box;
+    font-family: "Cormorant Garamond";
+    font-size: 20px;
+    color: black;
+    outline: none;
+    transition: .5s;
+}
+.box:hover input{
+    width: 200px;
+    background: white;
+    border-radius: 10px;
+}
+
+@media screen and (max-width: 992px) {
+  .box:hover input {
+      width: 100%;
+  }
+}
+
+.box:hover input:hover{
+    box-shadow: 0 12px 24px 0 rgba(0,0,0,0.2);
+}
+
+.box:hover input:focus{
+    border-color: #91B40D;
+}
+
+@media screen and (max-width: 992px) {
+  .box:hover input {
+    border-color: #91B40D;
+  }
+}
+
+.box i{
+    position: absolute;
+    top: 50%;
+    left: 17px;
+    transform: translate(-50%,-50%);
+    font-size: 26px;
+    color: black;
+    transition: .2s;
+}
+@media screen and (max-width: 992px) {
+  .box i {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+  }
+}
+.box:hover i{
+    opacity: 0;
+    z-index: -1;
+}
+
+
+/*
+
+.searchbar{
+    margin-bottom: auto;
+    margin-top: auto;
+    height: 60px;
+    background-color: #353b48;
+    border-radius: 30px;
+    padding: 10px;
+}
+
+.search_input{
+    color: white;
+    border: 0;
+    outline: 0;
+    background: none;
+    width: 0;
+    caret-color:transparent;
+    line-height: 40px;
+    transition: width 0.4s linear;
+}
+
+.searchbar:hover > .search_input{
+    padding: 0 10px;
+    width: 450px;
+    caret-color:red;
+    transition: width 0.4s linear;
+}
+        
+.searchbar:hover > .search_icon{
+     background: white;
+     color: #e74c3c;
+}
+
+.search_icon{
+    height: 40px;
+    width: 40px;
+    float: right;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    color:white;
+    text-decoration:none;
+}
+
+*/
+
+
+
+.button2 {
+    background-color: none;
+    border: none;
+    font-family: "Cormorant Garamond";
+    text-align: center;
+    display: inline-block;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-bottom: 0%;
+  }
+
+.button2:hover {
+    background-color: #91B40D;
+    border-radius: 5px;
+}
+
+.link {
+    text-decoration: none;
+}
+
+.link:hover {
+    color: black;
+}
+
+.garden_number {
+    font-family: 'Cormorant Garamond'; 
+    font-size: 120px;
+    font-style: normal;
+    color: #918F8F;
+}
+
+.garden_name {
+    font-family: 'Cormorant Garamond'; 
+    font-size: 30px;
+    font-style: normal;
+    color: #5F5C5C;
+}
+
+.garden_card {
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+}
+
+.garden_card:hover {
+    box-shadow: 0 12px 24px 0 rgba(0,0,0,0.2);
+}
+
+.crops {
+    color: black;
+}
+
+.crops:hover, .activate {
+    background-color: #91B40D;
+    color: white;
+}
+
+.crops_button {
+    text-decoration: none;
+    color: black;
+    margin: 10px;
+}
+
+.crops_button:hover, .crops_button:active {
+    color: #91B40D;
+}
+
+.portfolio-menu{
+	text-align:center;
+}
+
+.portfolio-menu ul li{
+	display:inline-block;
+	margin:0;
+	list-style:none;
+	padding:10px 15px;
+	cursor:pointer;
+	-webkit-transition:all 05s ease;
+	-moz-transition:all 05s ease;
+	-ms-transition:all 05s ease;
+	-o-transition:all 05s ease;
+	transition:all .5s ease;
+}
+
+.portfolio-item .item{
+	float: center;
+	margin-bottom:10px;
+}
+
+.rec1 {
+    background-image: url("images/rectangle/Group\ 425.png");
+    background-position: top;
+    background-repeat: no-repeat;
+}
+
+.rec2 {
+    background-image: url("images/rectangle/Group\ 434.png");
+    background-position: bottom;
+    background-repeat: no-repeat;
+}
+
+.rec3 {
+    background-image: url("images/rectangle/Group\ 435.png");
+    background-position: top;
+    background-repeat: no-repeat;
+}
+
+.pic1 {
+    background-image: url("images/meladora/Group\ 423.png");
+    background-position: -3% 70%;
+    background-repeat: no-repeat;
+}
+
+.pic2 {
+    background-image: url("images/meladora/Group\ 423.png");
+    background-position: top left;
+    background-repeat: no-repeat;
+}
+
+.pic3 {
+    background-image: url("images/meladora/Group\ 423.png");
+    background-position: 100% 0%;
+    background-repeat: no-repeat;
+}
+
+.pic4 {
+    background-image: url("images/bag/Group\ 415.png");
+    background-position: bottom;
+    background-repeat: no-repeat;
+}
+
